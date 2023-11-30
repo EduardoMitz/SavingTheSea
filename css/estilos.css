@@ -1,0 +1,91 @@
+/* styles.css */
+
+body {
+    background-color: #c8cbcd;
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+    background-image:url(https://tse3.mm.bing.net/th?id=OIP.5QiExdLH-WemtHrL9f4SMwAAAA&pid=Api&P=0&h=180);
+}
+
+h1,
+h2,
+h3 {
+    color: #008080;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.index {
+    background-color: #bed6d6;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.carousel-inner {
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+h1 {
+    color: #005c5c;
+}
+
+.d-flex {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+a:link {
+    color: rgb(14, 81, 82);
+}
+
+a:visited {
+    color: rgb(145, 57, 192);
+}
+
+a:hover {
+    color: rgb(24, 55, 55);
+}
+
+a:active {
+    color: rgb(255, 255, 255);
+}
+
+.mision {
+    margin-top: 5px;
+}
+
+.text {
+    color: rgb(83, 68, 159);
+}
+
+.cub {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-style: dotted;
+    background-color: rgb(185, 218, 218);
+}

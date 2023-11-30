@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SavingTheSea/Contacto.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!-- Imagen que se hace más pequeña o grande según el tamaño de la pantalla -->
+            <a class="navbar-brand" href="#inicio">
+                <img src="img/Logo.png" alt="Logo" style="width: 60px;" class="img-fluid logo">
+            </a>
+            <div class="col-4 pt-md-4 d-none">
+                <a class="navbar-brand" href="#inicio ">Inicio</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="section" id="contacto">
+            <h1>Contacto</h1>
+            <p>Estamos abiertos a recibir propuestas de mejoras, asociaciones y oportunidades de inversión para
+                contribuir a la salud ambiental marina. Contáctanos a través del formulario:</p>
+            <hr>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Ingrese su mensaje"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <hr>
+                <div class="form-group">
+                    <label for="empresa">Nombre de la Empresa (si aplica):</label>
+                    <input type="text" class="form-control" id="empresa" placeholder="Ingrese el nombre de su empresa">
+                </div>
+                <br>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Como desea invertir</option>
+                    <option value="1">Acciones Sostenibles</option>
+                    <option value="2">Fondos de Inversión Socialmente Responsables (ISR)</option>
+                    <option value="3">Tecnología Ambiental</option>
+                    <option value="4">Energías Renovables</option>
+                    <option value="5">Proyectos de Turismo Sostenible</option>
+                    <option value="6">Reciclaje y Gestión de Residuos</option>
+                    <option value="7">Inversiones Directas en Conservación Marina</option>
+                    <option value="8">Investigación Marina</option>
+                  </select>
+                  <br>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
